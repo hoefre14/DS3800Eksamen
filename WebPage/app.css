@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    background-color: #A6A6A6;
+}
+
+.header {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: dodgerblue;
+    border: 2px solid black;
+    font-size: 175%;
+}
+
+.section {
+    display: none;
+    width: 100%;
+}
+
+.section.active {
+    display: block;
+}
+
+.top {
+    background-color: cadetblue;
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content {
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
+    background-color: cadetblue;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button, label {
+    font-family: monospace;
+    cursor: pointer;
+}
+
+nav {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+nav:after {
+    content: ' ';
+    height: 0;
+    display: block;
+    visibility: none;
+    clear: both;
+}
+
+nav button {
+    border: 2px solid black;
+    height: 40px;
+    float: left;
+    width: calc(100% / 3);
+    background-color: skyblue;
+    font-size: 20px;
+    font-weight: bold;
+    height: 44px;
+}
+
+nav button:hover {
+    border: 3px solid black;
+    cursor: pointer;
+    background-color: deepskyblue;
+    font-size: 160%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 175%;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 125%;
+}
+
+li {
+    list-style: none;
+}
